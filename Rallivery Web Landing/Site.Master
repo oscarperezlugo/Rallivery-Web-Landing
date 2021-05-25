@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Rallivery_Web_Landing.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rallivery</title>
+
+    <link href="Content/Columnas.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />   
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav  id="nave" class="fila fijador">
+                <div  class="col2L  col0M col0S col0T" >
+                    <a href="Default.aspx"><img id="logo" src="img/Recurso3.png" /></a>
+                </div>               
+                <div id="registro" class="col6L  col1M col1S col2T">
+                    <div class="fila">
+                        <a href="#" id="registrobot" class="col10L">Chi Siamo</a>
+                        <a href="#" id="sesion" class="col10L">Diventa Rallista</a>
+                        <a href="#" id="zonat" class="col10L">Diventa Partner</a>
+                    </div>                             
+                </div>                
+                <div id="moneda" class="col2L  col1M col1S col2T">
+                    <div class="fila">
+                        <a id="monedat" class="col10L">Accedi</a>
+                        <label id="botoncarrito">Registrati</label>   
+                    </div>                   
+                </div>                                                                                
+            </nav>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+    <footer class="footer fila ">
+        <div id="footer1" class="col2L col1M col1S col1T divfoot">
+            <div class="fila">
+                <img id="logobajo" src="img/Isologo_5.png" />
+                <a class="elefoot col10L">© 2021 - Rallivery.</a><br />
+                <a class="elefoot col10L">Tutti i diritti riservati.</a>
+            </div>
+        </div>
+        <div id="footer2" class="col2L col1M col1S col1T divfoot">
+            <a class="elefoottres col10L">Categorie</a><br />
+            <br />
+            <a class="elefootdos col10L">Ristoranti</a><br />
+            <a class="elefootdos col10L">Supermercati</a><br />
+            <a class="elefootdos col10L">Farmacie</a><br />
+            <a class="elefootdos col10L">Florerie</a><br />
+            <a class="elefootdos col10L">Ferramente</a>
+        </div>
+        <div id="footer3" class="col2L col1M col1S col1T divfoot">
+            <a class="elefoottres col10L">Informazione</a><br />
+            <br />
+            <a class="elefootdos col10L">Termini e Condizione</a><br />
+            <a class="elefootdos col10L">Privacy Policy</a><br />
+            <a class="elefootdos col10L">Cookie Policy</a><br />
+            <a class="elefootdos col10L">Contatacci</a><br />
+            
+        </div>
+        <div id="footer4" class="col2L col1M col1S col1T divfoot">
+            <br />
+            <br />
+            <br />
+            <a class="elefootdos col10L">Chi Siamo</a><br />
+            <a class="elefootdos col10L">Diventa Rallista</a><br />
+            <a class="elefootdos col10L">Diventa Partner</a><br />
+        </div>
+        <div id="footer5" class="col2L col1M col1S col1T divfoot">
+            <a class="elefoottres col10L">Portaci ovunque</a><br />
+            <img class="logodes" src="img/Frame1.png" /><br />
+            <img class="logodes" src="img/imagen7.png" /><br />  
+            <a class="elefoottres col10L">Seguici su</a><br />
+            <i class="fa fa-instagram elefoottres" aria-hidden="true" style="font-size:25px;"></i>
+            <i class="fa fa-facebook-official elefoottres" aria-hidden="true" style="font-size:25px;"></i>
+            <br />
+        </div>
+    </footer>
+  
+</body>
+</html>
