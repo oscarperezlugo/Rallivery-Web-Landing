@@ -478,9 +478,7 @@ footer {
     margin-bottom: 0;
 }
 
-center a {
-    display: none;
-}
+
 
 .linea {
     border-top: 1px solid black;
@@ -488,11 +486,12 @@ center a {
 
 .formulario {
     padding: 10px;
-    width: 50%;
-    border-color: black;
+    width: 100%;
+    border-color: transparent;
     margin: 20px;
     border-radius: 5px;
-    font-family: 'Trebuchet MS';
+    font-family: 'Roboto';
+    font-weight: 700;
 }
 
 .baseform {
@@ -1307,6 +1306,18 @@ formpago {
     font-size: 50px;
     color: #A5C739;
 }
+.TituloEspacio {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 50px;
+    color: #A5C739;
+}
+.TituloEspacioSub {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    color: #606060;
+}
 #TextHeader {
     font-family: 'Poppins';
     font-weight: bold;
@@ -1322,6 +1333,23 @@ formpago {
     font-weight:bold;
     
 }
+.espaciotres {
+    background-color: #F3F3F3;
+    padding: 150px;
+    height: 700px;
+    font-family: 'Roboto';
+    color: #606060;
+    font-weight: bold;
+}
+.espaciocuatro {
+    background-color: #F3F3F3;
+    padding: 150px;
+    height: 1900px;
+    font-family: 'Roboto';
+    color: #606060;
+    
+    font-size: 25px;
+}
 .sombreado {
     
     padding: 10px 10px 20px 10px;    
@@ -1330,8 +1358,36 @@ formpago {
     box-shadow: 10px 10px 5px #aaaaaa;
     margin:10px;
 }
-#EspacioText div div{
+.espaciocinco {
+    background-color: #ffffff;
+    padding: 150px;
+    height: 350px;
+    font-family: 'Roboto';
+    color: #606060;
+    font-weight: bold;
+}
+.EspacioText div div{
     float:left;
     margin:1%;
+}
+.EspacioTextDos div div {
+    float: left;
+    margin: 3%;
+}
+.espacio div div {
+    float: left;
+    margin: 3%;
+}
+.espacioseis div div {
+    float: left;
+    margin: 3%;
+}
+.espacioseis {
+    background-color: #6D2C2C;
+    padding: 200px;
+    height: 1200px;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-weight: bold;
 }
 
